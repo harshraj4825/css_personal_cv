@@ -1,0 +1,246 @@
+/* -----------------------------Body Section--------------------------------------------------------------------------------------- */
+body{
+    margin: 0%;
+    margin-right: 0%;
+    background-color: aquamarine;
+    /* display: inline-block; */
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+/* Styling Horizonntal row*/
+hr{
+    width: 5%; 
+    border-style: dotted none none;
+    border-color: gray;
+    border-width: 8px;
+}
+h1{
+    margin-block-start: 0%;
+    margin: 0 auto 0 auto;
+    font-family: 'Arizonia', cursive;
+    font-size: 6rem;
+    color:#810000;
+}
+h2{
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem;
+    color: #bd9354;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    width: 70%;
+    display: inline-block;
+    margin: 0%;
+    text-align: justify;
+    font-size: 1.5rem;
+    line-height: 2;
+}
+/* ----------------------------------------------Top Section which is Dic Appereance ------------------------------------------------*/
+.div_appearance{
+    background-color: #a2d9f7ff;
+    padding-top: 5rem;
+    position: relative;
+}
+.programmer{
+    color: #29bb89;
+}
+.pro{
+    text-decoration: underline;
+}
+.eagle{
+    height: 100px;
+    /* position: absolute; */
+}
+.cloud1{
+    height: 15%;
+    position: absolute ;
+    top: 6rem;
+    right: 15rem;
+}
+.cloud2{
+    height: 15%;
+    position: absolute ;
+    top: 6rem;
+    left: 15rem;
+}
+.cloud3{
+    height: 5%;
+    position: absolute ;
+    top: 3rem;
+    left: 40rem;
+}
+.cloud4{
+    height: 5%;
+    position: absolute ;
+    top: 3rem;
+    right: 40rem;
+}
+.tree{
+    width: 30%;
+}
+.eagle1{
+    height: 100px;
+    position: absolute;
+    left: 6rem;
+    top: 3rem;
+}
+.eagle2{
+    height: 5%;
+    position: absolute;
+    right: 6rem;
+    top: 3rem;
+}
+.eagle3{
+    height: 3rem;
+    position: absolute;
+    left: 30rem;
+    top: 1rem;
+}
+.eagle4{
+    height: 4rem;
+    position: absolute;
+    right: 35rem;
+    top: 0%;
+}
+
+/* ----------------------------------------------Profile Section or Introduction Section----------  ----------------------------------*/
+.div_intro{
+    margin: 0%; 
+}
+.profile{
+    margin-top: 100px;
+    width: 20%;
+}
+.welcome{
+    color: #e2703a;
+    letter-spacing: 1.5rem;
+    font-family: 'Arizonia', cursive;
+}
+/* ------------------------------------------------Education Section----------------------------------------------------------------- */
+.div_edu{
+    display: inline-block;
+    text-align: left;
+}
+.edu_table{
+    border-spacing: 40px;
+    font-size: 1.5rem;
+}
+.edu_text{
+    text-align: center;
+}
+.edu_thead{
+    font-weight: bold;
+}
+/* -------------------------------------------------- Project Section-----------------------------------------------------------------*/
+.proj_title{
+    font-size: 1.5rem;
+    line-height: 2;
+    font-weight: bold;
+    color:forestgreen;
+}
+.pro_link {
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: Georgia;
+    color: #4c24bd;
+    font-size: 1rem;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .pro_link:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+/* --------------------------------------------------Skills Section---------------------------------------------------------------- */
+.div_skills{
+    display: inline-block;
+    text-align: left;
+}
+.ul_skill{
+    list-style-type: none;
+}
+.unfilled_star{
+    height: 20px;
+}
+.filled_star{
+    /* height: 20px; */
+    color:rgb(25, 0, 255);
+    /* default is 128px */
+    font-size: 100%;
+}
+.ul_project{
+    list-style-type: none;
+}
+.unfilled_star{
+    font-size: 100%;
+}
+.ul_skill{
+    /* transition: transform .2s; */
+    transition: all .2s ease-out;
+}
+.ul_skill:hover{
+    transform: scale(1.2);
+    color: #fc3cf6;
+}
+/* ------------------------------------------------Get in Touch-------------------------------------------- */
+.btn {
+    background: #34ced9;
+    background-image: -webkit-linear-gradient(top, #34ced9, #2b47b8);
+    background-image: -moz-linear-gradient(top, #34ced9, #2b47b8);
+    background-image: -ms-linear-gradient(top, #34ced9, #2b47b8);
+    background-image: -o-linear-gradient(top, #34ced9, #2b47b8);
+    background-image: linear-gradient(to bottom, #34ced9, #2b47b8);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #fc3cf6;
+    background-image: -webkit-linear-gradient(top, #fc3cf6, #3498db);
+    background-image: -moz-linear-gradient(top, #fc3cf6, #3498db);
+    background-image: -ms-linear-gradient(top, #fc3cf6, #3498db);
+    background-image: -o-linear-gradient(top, #fc3cf6, #3498db);
+    background-image: linear-gradient(to bottom, #fc3cf6, #3498db);
+    text-decoration: none;
+  }
+  /* ---------------------------------bottom div---------------------------------------- */
+.usefull_link{
+    background-color:#f2b4b4;
+    padding-top: 2rem;
+}
+.social_link{
+    color: #11999E;
+    text-decoration: none;
+    border: 1px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+}
+.social_link:hover{
+    color: #3cb0fd;
+}
+.cp_text{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 0.5%;
+    font-size: 0.75rem;
+    color: #EAF6F6;
+}
