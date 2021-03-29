@@ -121,6 +121,8 @@ p{
 .div_edu{
     display: inline-block;
     text-align: left;
+    width: 100%;
+    overflow-y: hidden;
 }
 .edu_table{
     border-spacing: 40px;
@@ -164,6 +166,8 @@ p{
 .div_skills{
     display: inline-block;
     text-align: left;
+    width: 100%;
+    overflow-y: hidden;
 }
 .ul_skill{
     list-style-type: none;
